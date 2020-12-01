@@ -324,7 +324,7 @@ Text HLabel 3600 6350 0    50   Input ~ 0
 NOTEON
 Wire Wire Line
 	4250 6350 3600 6350
-Text HLabel 5450 6450 2    50   Output ~ 0
+Text HLabel 5150 6450 2    50   Output ~ 0
 GATE
 Text HLabel 5150 4450 2    50   Output ~ 0
 CV3
@@ -333,17 +333,8 @@ CV2
 Text HLabel 5150 1500 2    50   Output ~ 0
 CV1
 Wire Wire Line
-	4800 1500 5150 1500
+	4800 1500 4850 1500
 Connection ~ 4800 1500
-Wire Wire Line
-	4850 3000 5150 3000
-Connection ~ 4850 3000
-Wire Wire Line
-	4850 4450 5150 4450
-Connection ~ 4850 4450
-Wire Wire Line
-	4850 6450 5450 6450
-Connection ~ 4850 6450
 Wire Wire Line
 	2350 1800 3850 1800
 Wire Wire Line
@@ -500,4 +491,51 @@ Wire Wire Line
 Connection ~ 5100 2100
 Wire Wire Line
 	5100 2600 5100 2700
+$Comp
+L Device:R R13
+U 1 1 5FCB2CC0
+P 5000 1500
+F 0 "R13" V 4793 1500 50  0000 C CNN
+F 1 "1K" V 4884 1500 50  0000 C CNN
+F 2 "" V 4930 1500 50  0001 C CNN
+F 3 "~" H 5000 1500 50  0001 C CNN
+	1    5000 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5FCB4627
+P 5000 3000
+F 0 "R14" V 4793 3000 50  0000 C CNN
+F 1 "1K" V 4884 3000 50  0000 C CNN
+F 2 "" V 4930 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	0    1    1    0   
+$EndComp
+Connection ~ 4850 3000
+$Comp
+L Device:R R15
+U 1 1 5FCB4C4C
+P 5000 4450
+F 0 "R15" V 4793 4450 50  0000 C CNN
+F 1 "1K" V 4884 4450 50  0000 C CNN
+F 2 "" V 4930 4450 50  0001 C CNN
+F 3 "~" H 5000 4450 50  0001 C CNN
+	1    5000 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 4850 4450
+$Comp
+L Device:R R16
+U 1 1 5FCB6C40
+P 5000 6450
+F 0 "R16" V 4793 6450 50  0000 C CNN
+F 1 "1K" V 4884 6450 50  0000 C CNN
+F 2 "" V 4930 6450 50  0001 C CNN
+F 3 "~" H 5000 6450 50  0001 C CNN
+	1    5000 6450
+	0    1    1    0   
+$EndComp
+Connection ~ 4850 6450
 $EndSCHEMATC
