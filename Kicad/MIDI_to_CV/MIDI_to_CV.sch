@@ -35,11 +35,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 1250 1900 1350
 Connection ~ 1900 1250
-Wire Wire Line
-	1900 1250 2150 1250
 Connection ~ 1900 1350
-Wire Wire Line
-	1900 1350 2150 1350
 Wire Wire Line
 	1900 1350 1900 1450
 Connection ~ 1900 1450
@@ -559,7 +555,7 @@ Wire Wire Line
 	2600 1550 2600 1650
 Connection ~ 2600 1650
 Wire Wire Line
-	2600 1650 3950 1650
+	2600 1650 3000 1650
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 600EF6F9
@@ -716,5 +712,49 @@ F 2 "" H 9950 2550 50  0001 C CNN
 F 3 "" H 9950 2550 50  0001 C CNN
 	1    9950 2550
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 5FC85A05
+P 3000 1500
+F 0 "C8" V 3255 1500 50  0000 C CNN
+F 1 "10uF" V 3164 1500 50  0000 C CNN
+F 2 "" H 3038 1350 50  0001 C CNN
+F 3 "~" H 3000 1500 50  0001 C CNN
+	1    3000 1500
+	-1   0    0    1   
+$EndComp
+Connection ~ 3000 1650
+Wire Wire Line
+	1900 1350 2150 1350
+Connection ~ 2150 1350
+Wire Wire Line
+	2150 1350 3000 1350
+Wire Wire Line
+	1900 1250 2150 1250
+Wire Wire Line
+	3000 1650 3950 1650
+$Comp
+L Device:CP C7
+U 1 1 5FC9756A
+P 900 1700
+F 0 "C7" V 1155 1700 50  0000 C CNN
+F 1 "10uF" V 1064 1700 50  0000 C CNN
+F 2 "" H 938 1550 50  0001 C CNN
+F 3 "~" H 900 1700 50  0001 C CNN
+	1    900  1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  1550
+$Comp
+L power:GND #PWR0114
+U 1 1 5FC98A96
+P 900 1850
+F 0 "#PWR0114" H 900 1600 50  0001 C CNN
+F 1 "GND" H 905 1677 50  0000 C CNN
+F 2 "" H 900 1850 50  0001 C CNN
+F 3 "" H 900 1850 50  0001 C CNN
+	1    900  1850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
