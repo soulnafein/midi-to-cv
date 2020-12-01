@@ -1,0 +1,184 @@
+( { EESchema Netlist Version 1.1  Monday, 30 November 2020 at 23:02:57
+Eeschema (5.1.8-0-10_14)}
+ ( 5FC46DB8 Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical J1 Conn_02x08_Odd_Even
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 +12V )
+  ( 10 +12V )
+  ( 11 +5V )
+  ( 12 +5V )
+  ( 13 Net-(J1-Pad13) )
+  ( 14 Net-(J1-Pad13) )
+  ( 15 Net-(J1-Pad15) )
+  ( 16 Net-(J1-Pad15) )
+ )
+ ( 5FC78BFF $noname R1 4.7K
+  ( 1 Net-(IC1-Pad1) )
+  ( 2 +3V3 )
+ )
+ ( 5FC7E271 Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal J3 AudioJack2
+  ( S Net-(D1-Pad2) )
+  ( T /DAC Module/CV1 )
+ )
+ ( 5FC7FEBD Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal J4 AudioJack2
+  ( S Net-(D1-Pad2) )
+  ( T /DAC Module/CV2 )
+ )
+ ( 5FC80DBA Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal J5 AudioJack2
+  ( S Net-(D1-Pad2) )
+  ( T /DAC Module/CV3 )
+ )
+ ( 5FC83371 Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal J6 AudioJack2
+  ( S Net-(D1-Pad2) )
+  ( T /DAC Module/GATE )
+ )
+ ( 5FC9F0B1 Package_TO_SOT_SMD:SOT-223-3_TabPin2 U1 LD1117S33TR_SOT223
+ )
+ ( 5FCA0D05 $noname R4 10K
+  ( 1 GND )
+  ( 2 Net-(C2-Pad2) )
+ )
+ ( 5FCA4D60 $noname C5 10uF
+  ( 1 +5V )
+  ( 2 Net-(C4-Pad1) )
+ )
+ ( 5FCA611E $noname C6 10uF
+  ( 1 +3V3 )
+  ( 2 Net-(C4-Pad1) )
+ )
+ ( 5FCA7B11 $noname C1 18pF
+  ( 1 Net-(C1-Pad1) )
+  ( 2 GND )
+ )
+ ( 5FCA84BA $noname C3 18pF
+  ( 1 GND )
+  ( 2 Net-(C3-Pad2) )
+ )
+ ( 5FCA899A $noname C2 1uF
+  ( 1 GND )
+  ( 2 Net-(C2-Pad2) )
+ )
+ ( 5FCA8DEE $noname C4 1uF
+  ( 1 Net-(C4-Pad1) )
+  ( 2 Net-(C4-Pad2) )
+ )
+ ( 5FD12B02 $noname D1 LED_Dual_2pin
+  ( 1 Net-(D1-Pad1) )
+  ( 2 Net-(D1-Pad2) )
+ )
+ ( 5FD12B08 $noname R2 150
+  ( 1 Net-(D1-Pad1) )
+  ( 2 /DAC Module/GATE )
+ )
+ ( 5FD12B0E $noname J7 USB_A
+  ( 1 Net-(IC1-Pad15) )
+  ( 2 Net-(IC1-Pad22) )
+  ( 3 Net-(IC1-Pad21) )
+  ( 4 Net-(D1-Pad2) )
+  ( 5 Net-(D1-Pad2) )
+ )
+ ( 5FC97C96 $noname SW1 SW_SPDT
+  ( 1 Net-(C2-Pad2) )
+  ( 2 +3V3 )
+  ( 3 ? )
+ )
+ ( 5FD2B35E $noname R3 82
+  ( 1 Net-(IC1-Pad7) )
+  ( 2 Net-(D2-Pad2) )
+ )
+ ( 5FD45407 DIP794W56P254L3486H508Q28N IC1 PIC24FJ64GB002-I_SP
+  ( 1 Net-(IC1-Pad1) )
+  ( 2 ? )
+  ( 3 /DAC Module/SDI )
+  ( 4 Net-(IC1-Pad4) )
+  ( 5 Net-(IC1-Pad5) )
+  ( 6 Net-(D2-Pad1) )
+  ( 7 Net-(IC1-Pad7) )
+  ( 8 GND )
+  ( 9 Net-(C1-Pad1) )
+  ( 10 Net-(C3-Pad2) )
+  ( 11 ? )
+  ( 12 Net-(C2-Pad2) )
+  ( 13 +3V3 )
+  ( 14 ? )
+  ( 15 Net-(IC1-Pad15) )
+  ( 16 /DAC Module/CS3 )
+  ( 17 /DAC Module/CS2 )
+  ( 18 /DAC Module/CS1 )
+  ( 19 Net-(C4-Pad2) )
+  ( 20 Net-(C4-Pad1) )
+  ( 21 Net-(IC1-Pad21) )
+  ( 22 Net-(IC1-Pad22) )
+  ( 23 ? )
+  ( 24 /DAC Module/NOTEON )
+  ( 25 ? )
+  ( 26 /DAC Module/SCK )
+  ( 27 Net-(C4-Pad1) )
+  ( 28 +3V3 )
+ )
+ ( 5FD2B358 $noname D2 LED_Dual_2pin
+  ( 1 Net-(D2-Pad1) )
+  ( 2 Net-(D2-Pad2) )
+ )
+ ( 5FC9234B $noname J2 Conn_01x06_Female
+  ( 1 Net-(IC1-Pad1) )
+  ( 2 +3V3 )
+  ( 3 GND )
+  ( 4 Net-(IC1-Pad4) )
+  ( 5 Net-(IC1-Pad5) )
+  ( 6 ? )
+ )
+ ( 5FCAA7F5 $noname Y1 Crystal
+  ( 1 Net-(C1-Pad1) )
+  ( 2 Net-(C3-Pad2) )
+ )
+ ( 5FD0397F $noname U4 LM358
+ )
+ ( 5FD03991 $noname U6 LM358
+ )
+ ( 5FD039A3 $noname R5 6.8K
+  ( 1 /DAC Module/CV1 )
+  ( 2 Net-(R5-Pad2) )
+ )
+ ( 5FD039A9 $noname R6 6.8K
+  ( 1 /DAC Module/CV2 )
+  ( 2 Net-(R6-Pad2) )
+ )
+ ( 5FD039AF $noname R9 6.8K
+  ( 1 /DAC Module/CV3 )
+  ( 2 Net-(R11-Pad1) )
+ )
+ ( 5FD039B5 $noname R7 3.3K
+  ( 1 Net-(R5-Pad2) )
+  ( 2 ? )
+ )
+ ( 5FD039BB $noname R8 3.3K
+  ( 1 Net-(R6-Pad2) )
+  ( 2 ? )
+ )
+ ( 5FD039C1 $noname R11 3.3K
+  ( 1 Net-(R11-Pad1) )
+  ( 2 ? )
+ )
+ ( 5FD039C7 $noname R10 5.2K
+  ( 1 /DAC Module/GATE )
+  ( 2 Net-(R10-Pad2) )
+ )
+ ( 5FD039CD $noname R12 10K
+  ( 1 Net-(R10-Pad2) )
+  ( 2 ? )
+ )
+ ( 5FD0C085 $noname U2 MCP4921
+ )
+ ( 5FD0C08B $noname U3 MCP4921
+ )
+ ( 5FD0DBFD $noname U5 MCP4921
+ )
+)
+*
