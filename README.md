@@ -17,4 +17,7 @@ from 0V to 10V.
 I'm a newbie electronic enthusiast, I'm even newer to the world of
 synths. Use this at your own risk.
 
+To compile and upload the code I've used [MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) and the [PicKit 3
+programmer](https://www.microchip.com/Developmenttools/ProductDetails/PG164130)
+
 ![Just Panel](https://github.com/soulnafein/midi-to-cv/blob/main/midi-to-cv-2.jpg?raw=true)
