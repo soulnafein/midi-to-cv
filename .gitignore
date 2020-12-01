@@ -3,3 +3,28 @@ src/MIDI_to_CV.X/build/
 /MIDI_to_CV.X/dist/
 /MIDI_to_CV.X/build/
 MIDI_to_CV.X/nbproject/private/
+# Temporary files
+Kicad/**/*.000
+Kicad/**/*.bak
+Kicad/**/*.bck
+Kicad/**/*.kicad_pcb-bak
+Kicad/**/*.kicad_sch-bak
+Kicad/**/*.kicad_prl
+Kicad/**/*.sch-bak
+Kicad/**/*~
+Kicad/**/_autosave-*
+Kicad/**/*.tmp
+Kicad/**/*-save.pro
+Kicad/**/*-save.kicad_pcb
+Kicad/**/fp-info-cache
+
+# Netlist files (exported from Eeschema)
+/Kicad/MIDI_to_CV/*.net
+
+# Autorouter files (exported from Pcbnew)
+Kicad/**/*.dsn
+Kicad/**/*.ses
+
+# ExpGGted BOM files
+Kicad/**/*.xml
+Kicad/**/*.csv
